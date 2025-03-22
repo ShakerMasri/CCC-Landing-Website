@@ -1,0 +1,77 @@
+body{
+    font-size: 18px;
+}
+
+.login-space{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    align-content: center;
+    padding: 20px;
+}
+
+
+
+.title{
+    text-shadow: 2px 2px 1px #237ca8;
+
+}
+
+.input-field{
+    width:60%;
+    padding: 8px;
+    margin-bottom: 20px;
+
+}
+
+.login-button{
+    padding: 20px 30px 20px 30px;
+    background-color: #237ca8;
+    color: white;
+    text-shadow: 2px 2px 1px #0b3e57;
+    border-radius: 10px;
+    flex-shrink: 0 ;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    background:  #3ea9de;
+    
+}
+
+.login-button:active{
+    background:  #0b3e57;
+}
+.input-field:valid{
+    background: #ffffff;
+}
+.input-field:invalid{
+    background: #c27070;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    
+  .header{
+    font-size: small;
+  
+  }
+
+  .menu{
+    
+    padding: 15px;
+   
+  }
+
+  a{
+   font-size: medium;
+  }
+
+  .footer-txt{
+    font-size: 8px;
+  }
+  
+
+}
